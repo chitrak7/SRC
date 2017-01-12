@@ -1,0 +1,62 @@
+/* The side navigation menu */
+.sidenav {
+    height: 600px; /* 100% Full-height */
+    width: 250px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 150px;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+h1{
+	text-align:center;
+	display: inline-block;
+}
+#main_body{
+	position:absolute;
+	left:250px;
+	width:1100px;
+	top: 150px;
+	height: 600px;
+}
+#top_head{
+	position:fixed;
+	height:150px;
+	width: 100%;
+	opacity:1.0;
+}
+#iitklogo{
+	position:relative;
+	left : 50px;
+	top:35px;
+}
+#site_heading{
+	position:fixed;
+	left:300px;
+	top: 35px;
+	overflow-y:hidden;
+}
